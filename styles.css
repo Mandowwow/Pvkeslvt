@@ -83,27 +83,6 @@ nav ul li {
     margin-top: 20px;
 }
 
-.cta-button {
-    background-color: #ff5733;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-
-/* Featured Products */
-#featured {
-    padding: 50px 0;
-}
-
-.product-grid {
-    display: flex;
-    justify-content: space-around;
-}
-
-.product-item img {
-    width: 200px;
-}
-
 footer {
     text-align: center;
     padding: 0px 0;
@@ -113,17 +92,3 @@ footer {
     max-width: 100%;
     height: auto;
 }
-
-/* Shop Page Specific Styles */
-#shop h2 {
-    text-align: center;
-    margin-top: 50px;
- }
- 
- .add-to-cart-btn {
-    background-color: #28a745; /* Green Button */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
- }
