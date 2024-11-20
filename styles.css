@@ -69,10 +69,12 @@ nav ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .hero-content {
     text-align: center;
+    margin: 80px;
 }
 
 .hero-content h2 {
