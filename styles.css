@@ -77,6 +77,24 @@ nav ul li {
     margin: 60px;
 }
 
+.web-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.logos {
+    width: 200px; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.web-links a {
+    text-decoration: none;
+}
+
 footer {
     text-align: center;
     padding: 0px 0;
