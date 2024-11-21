@@ -23,9 +23,9 @@ header {
 }
 
 .scrolling-text{
-    white-space: nowrap; /* Prevent text from wrapping */
-    color: #50F361; /* Text color */
-    font-size: 15px; /* Adjust font size as needed */
+    white-space: nowrap;
+    color: #50F361; 
+    font-size: 15px; 
     position: absolute;
     display: inline-block;
     animation: scroll-left 50s linear infinite;
@@ -33,10 +33,10 @@ header {
 
 @keyframes scroll-left {
     0% {
-        transform: translateX(105%); /* Start off-screen (right) */
+        transform: translateX(105%);
     }
     100% {
-        transform: translateX(-100%); /* Move completely off-screen (left) */
+        transform: translateX(-100%); 
     }
 }
 
@@ -61,28 +61,20 @@ nav ul li {
     color: #50f361;
 }
 
-/* Hero Section */
+
 #hero {
     background-image: url('hero-background.jpg');
     background-size: cover;
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    /* border: 2px solid red;
+    border-radius: 25px; */
 }
-
 .hero-content {
     text-align: center;
-    margin: 80px;
-}
-
-.hero-content h2 {
-    color: white;
-}
-
-.hero-content iframe{
-    margin-top: 20px;
+    margin: 60px;
 }
 
 footer {
@@ -93,4 +85,14 @@ footer {
 .footer-img {
     max-width: 100%;
     height: auto;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+  
+iframe {
+    max-width: 100%; /* Ensure the iframe doesn't overflow */
 }
