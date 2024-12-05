@@ -198,6 +198,10 @@ footer {
         max-width: 90%;
     }
 
+    .section-header {
+        font-size: 18px;
+    }
+
     /* Spotify Iframe Section */
     .iframe-container {
         margin-top: 20px; 
