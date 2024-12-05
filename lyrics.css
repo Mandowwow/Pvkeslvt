@@ -1,0 +1,44 @@
+/*Specific styles for lyrics.html*/
+.section-header {
+    font-size: 18px;
+    color: white;
+}
+
+.section-title {
+    margin-top: 80px;
+    font-size: 36px;
+    color: white;
+}
+
+/* Collapsible Lyrics */
+details summary {
+    cursor: pointer;
+    color: #A57395;
+    font-size: 15px;
+    list-style: none;
+    text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.non-lyrics {
+    color: #B7ADCA;
+    text-decoration: none;
+}
+
+.lyrics {
+    color: #B7ADCA;
+    white-space: pre;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+details {
+    margin-bottom: 35px;
+    margin-top: 35px;
+    text-align: center;
+}
