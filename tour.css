@@ -1,0 +1,18 @@
+.text-section {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
+.logos {
+    width: 30px; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+@media (max-width: 768px) {
+    .text-section {
+        margin-bottom: 15%;
+    }
+}
