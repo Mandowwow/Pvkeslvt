@@ -36,3 +36,13 @@
     height: auto;
     
 }
+
+@media (max-width: 768px) {
+    .ps-logo img{
+        width: 100px;
+    }
+
+    .ps-logo {
+        margin-top: 35px;
+    }
+}
