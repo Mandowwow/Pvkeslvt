@@ -3,55 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop - My Merch Store</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+    <title>Pvkeslvt</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="shop.css">
 </head>
 <body>
 
-<header>
-        <nav>
-            <h1>My Merch Store</h1>
-            <ul>
-                <li><a href="index.html">Home</a></li> <!-- Link back to landing page -->
-                <li><a href="#shop">Shop</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-</header>
+    <header>
+        <div class="scrolling-text">
+            pvkeslvt is a progressive electronic metal/dance-punk band that originated in August 2022. The music embodies pure energy and an authentic hardcore spirit, melded with raw and vibrant synth melodies to create an epic, multidimensional sound.
+        </div>
+    </header>
 
-<!-- Shop Section -->
-<section id="shop">
-   <h2>Our Merchandise</h2>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lyrics.html">Lyrics</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="tour.html">Tour</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-   <!-- Product List -->
-   <div class="product-grid">
-       <!-- Product 1 -->
-       <div class="product-item">
-           <img src="tshirt.jpg" alt="T-shirt">
-           <p>T-shirt - $20</p>
-           <button class="add-to-cart-btn" onclick="addToCart('T-shirt', 20)">Add to Cart</button> 
-       </div>
-
-       <!-- Product 2 -->
-       <div class="product-item">
-           <img src="hoodie.jpg" alt="Hoodie">
-           <p>Hoodie - $40</p>
-           <button class="add-to-cart-btn" onclick="addToCart('Hoodie', 40)">Add to Cart</button> 
-       </div>
-
-       <!-- Add more products as needed -->
-   </div>
-
-   <!-- Cart Section (optional) -->
-   <h3>Your Cart:</h3>
-   <ul id="cart"></ul> <!-- Cart items will be displayed here -->
-
-</section>
-
-<footer>
-   &copy; 2024 My Merch Store. All rights reserved.
-</footer>
-
-<script src="app.js"></script> <!-- Link to JavaScript file -->
+    <div class="iframe-container">
+    <iframe src="https://pvkeslvt.bandcamp.com/merch" width="100%" height="800px"></iframe>
+    </div>
 </body>
 </html>
