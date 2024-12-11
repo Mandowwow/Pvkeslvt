@@ -105,6 +105,7 @@ nav ul li a:hover {
   
 iframe {
     max-width: 100%;
+    margin-bottom: 100px;
 }
 
 .web-links {
@@ -159,6 +160,7 @@ iframe {
 .section-header {
     font-size: 20px;
     margin-bottom: 35px; 
+    margin-top: 150px;
     color: #D800A9;
 }
 
@@ -170,7 +172,7 @@ iframe {
 }
 
 .section-footer{
-    margin-top: 80px;
+    margin-top: 160px;
     color: white;
     font-size: 20px;
 }
@@ -182,11 +184,38 @@ iframe {
 footer {
     text-align: center;
     padding: 0px 0;
+    margin: 0;
+}
+
+.footer {
+    position: relative; 
+    width: 100%;
+    height: auto;
 }
 
 .footer-img {
-    max-width: 100%;
+    display: block;
+    width: 100%; 
     height: auto;
+}
+
+.footer-text {
+    position: absolute;
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: white; 
+    font-size: 14px; 
+    z-index: 2; 
+}
+
+.footer-text a {
+    color: #50F361; /* Color for links */
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    color: #D800A9; /* Hover effect for links */
 }
 
 /* Styles for Mobile Devices */
