@@ -237,6 +237,11 @@ footer {
         font-size: 18px;
     }
 
+    .footer-text {
+        font-size: 12px;
+        bottom: 5px;
+    }
+
     /* Spotify Iframe Section */
     .iframe-container {
         margin-top: 20px; 
