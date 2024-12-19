@@ -1,10 +1,11 @@
 .section-header {
-    font-size: 28px;
+    font-size: 23px;
     color: white;
+    margin-top: 80px;
 }
 
 .section-lesser {
-    font-size: 18px;
+    font-size: 13px;
     color: white;
 }
 
@@ -15,6 +16,6 @@
 
 @media (max-width: 768px) {
     .section-header{
-        font-size: 26px;
+        font-size: 21px;
     }
 }

@@ -1,12 +1,13 @@
 /*Specific styles for lyrics.html*/
 .section-header {
-    font-size: 18px;
+    font-size: 13px;
     color: white;
+    margin-top: 105px;
 }
 
 .section-title {
     margin-top: 80px;
-    font-size: 36px;
+    font-size: 31px;
     color: white;
 }
 
@@ -14,7 +15,7 @@
 details summary {
     cursor: pointer;
     color: #A57395;
-    font-size: 15px;
+    font-size: 12px;
     list-style: none;
     text-decoration: underline;
     display: inline-block;
@@ -25,6 +26,7 @@ details summary {
 .non-lyrics {
     color: #B7ADCA;
     text-decoration: none;
+    cursor: default;
 }
 
 .lyrics {
@@ -35,10 +37,16 @@ details summary {
     line-height: 1.8;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 13px;
 }
 
 details {
     margin-bottom: 35px;
     margin-top: 35px;
     text-align: center;
+}
+
+iframe {
+    max-width: 100%;
+    margin-bottom: 50px;
 }
