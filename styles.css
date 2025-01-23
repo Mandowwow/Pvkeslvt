@@ -1,16 +1,7 @@
 /* General Styles */
 
-@font-face {
-    font-family: 'Public Pixel';
-    src: url('fonts/PublicPixel.woff2') format('woff2'),
-         url('fonts/PublicPixel.woff') format('woff'),
-         url('fonts/PublicPixel.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
-    font-family: 'Public Pixel', sans-serif !important;
+    font-family: "Inconsolata", serif;
     margin: 0;
     padding: 0;
 
@@ -35,7 +26,7 @@ header {
 .scrolling-text{
     white-space: nowrap;
     color: #50F361; 
-    font-size: 11px; 
+    font-size: 18px; 
     position: absolute;
     display: inline-block;
     animation: scroll-left 50s linear infinite;
@@ -57,7 +48,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 13px;
+    font-size: 20px;
 }
 
 nav ul {
@@ -163,7 +154,7 @@ iframe {
 }
 
 .section-header {
-    font-size: 15px;
+    font-size: 24px;
     margin-bottom: 35px; 
     margin-top: 150px;
     color: #D800A9;
@@ -171,7 +162,7 @@ iframe {
 
 .vertical-text p {
     margin: 10px 0;
-    font-size: 15px; 
+    font-size: 20px; 
     line-height: 1.5; 
     
 }
@@ -179,7 +170,7 @@ iframe {
 .section-footer{
     margin-top: 160px;
     color: white;
-    font-size: 15px;
+    font-size: 22px;
 }
 
 .highlight-green{
@@ -210,7 +201,7 @@ footer {
     left: 50%; 
     transform: translateX(-50%); 
     color: white; 
-    font-size: 11px; 
+    font-size: 20px; 
     z-index: 2; 
 }
 

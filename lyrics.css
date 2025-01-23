@@ -1,13 +1,13 @@
 /*Specific styles for lyrics.html*/
 .section-header {
-    font-size: 13px;
+    font-size: 20px;
     color: white;
     margin-top: 105px;
 }
 
 .section-title {
     margin-top: 80px;
-    font-size: 31px;
+    font-size: 38px;
     color: white;
 }
 
@@ -15,7 +15,7 @@
 details summary {
     cursor: pointer;
     color: #A57395;
-    font-size: 12px;
+    font-size: 17px;
     list-style: none;
     text-decoration: underline;
     display: inline-block;
@@ -37,7 +37,7 @@ details summary {
     line-height: 1.8;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 13px;
+    font-size: 17px;
 }
 
 details {
@@ -45,6 +45,7 @@ details {
     margin-top: 35px;
     text-align: center;
 }
+
 
 iframe {
     max-width: 100%;
