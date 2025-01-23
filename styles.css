@@ -221,6 +221,10 @@ footer {
         height: auto; 
     }
 
+    nav {
+        font-size: 16px;
+    }
+
     .hero-content {
         margin: 20px; 
     }
