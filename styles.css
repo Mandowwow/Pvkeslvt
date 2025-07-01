@@ -231,7 +231,7 @@ footer {
         left: 0;
         top: 50%;
         transform: translateY(-50%);
-        animation-duration: 20s;
+        animation-duration: 10s;
     }
 
     nav {
