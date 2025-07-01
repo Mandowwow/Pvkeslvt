@@ -27,6 +27,7 @@ header {
     white-space: nowrap;
     color: #50F361; 
     font-size: 18px; 
+    line-height: 5px;
     position: absolute;
     display: inline-block;
     animation: scroll-left 50s linear infinite;
@@ -34,10 +35,10 @@ header {
 
 @keyframes scroll-left {
     0% {
-        transform: translateX(105%);
+        transform: translateY(-50%) translateX(105%);
     }
     100% {
-        transform: translateX(-100%); 
+        transform: translateY(-50%) translateX(-100%);
     }
 }
 
@@ -219,6 +220,17 @@ footer {
     #hero {
         padding: 20px 0; 
         height: auto; 
+    }
+
+    header {
+        height: 30px;
+    }
+    .scrolling-text {
+        font-size: 13px;
+        width: 100vw;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     nav {
